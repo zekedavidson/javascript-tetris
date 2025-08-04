@@ -1,0 +1,35 @@
+@font-face {
+    font-family: MyCustomFont;
+    src: url('MyCustomFont.otf') format('opentype');
+}
+
+body{
+    text-align: center;
+    background: white;
+}
+
+#my-canvas{
+    background: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#background-img {
+    position: absolute; /* Position it relative to the page */
+    left: 0;
+    top: 0;
+    width: 100%; /* Make it fill the page width */
+    height: 100%; /* Make it fill the page height */
+    z-index: -1; /* Place it BEHIND everything else */
+    /* filter: blur(4px); */
+}
+
+/*
+              color-i: #00f0f0;
+            --color-o: #f0f000;
+            --color-t: #a000f0;
+            --color-j: #0000f0;
+            --color-l: #f0a000;
+            --color-s: #00f000;
+            --color-z: #f00000;  #90D5FF
+            #3271A5 #3d304d*/
